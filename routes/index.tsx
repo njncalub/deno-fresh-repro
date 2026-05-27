@@ -6,6 +6,10 @@ export default define.page(function Home() {
     <div class="px-4 py-8 mx-auto fresh-gradient min-h-screen">
       <Head>
         <title>Deno Fresh Repro</title>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <div class="min-h-screen bg-surface" style="font-family: var(--font-body);">
         <header class="border-b border-outline-variant bg-surface sticky top-0 z-50"
